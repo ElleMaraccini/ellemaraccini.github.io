@@ -99,7 +99,7 @@ white-space: nowrap;
 /*hero header Navbar changes*/
 
 .hero-nav {
-    background: none;
+background: none;
 grid-column: 1/-1;
 grid-row: 1/-1;
 background: none;
@@ -142,7 +142,7 @@ z-index: 10;
 
 .hero-image-box::after {
     content:"";
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.0);
     height: 100%;
     width: 100%;
     position: absolute;
@@ -160,14 +160,14 @@ z-index: 10;
     grid-row: 1 / -1;
     grid-column: 1 / -1;
     align-self: center;
-    padding: 1rem;
+    padding: 0.5rem;
     z-index: 10;
     text-align: center;
 }
 
 .hero-heading {
     font-size: 1.5rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.5rem;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
@@ -175,20 +175,20 @@ z-index: 10;
 
 .hero-text {
     font-size: 1rem;
-    margin-top: 0.5rem;
+    margin-top: 0.05rem;
     color: white;
 }
 
 .hero-button {
     display: inline-block;
     padding: 0.75rem 2rem;
-    background: none;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
     font-size: 1.2rem;
     font-weight: bold;
     border: 1px solid white;
     border-radius: 5px;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .hero-button:hover {
